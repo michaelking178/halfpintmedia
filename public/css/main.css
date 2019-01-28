@@ -79,7 +79,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 1441px){
+@media only screen and (min-width: 1440px){
     .slideshow {
         animation: slideshowAnim_lg 20s linear infinite;
     }
@@ -157,13 +157,16 @@ body {
 .footer-row p {
     text-align: center;
     color: #aaa;
-    margin: 0;
     margin-top: 10px;
 }
 
 #webdev {
     margin-bottom: 50px;
 }
+
+/*---------------------------
+      MEDIA QUERIES
+ --------------------------*/
 
 @media only screen and (min-width: 768px) {
     .link-box {
@@ -188,5 +191,4 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-
 }
