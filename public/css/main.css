@@ -134,9 +134,9 @@ body {
 }
 
 .logo-box img {
-    width: 85%;
+    width: 60%;
     margin-top: 50px;
-    margin-left: 7.5%;
+    margin-left: 20%;
     margin-bottom: 50px;
 }
 
@@ -167,18 +167,24 @@ body {
 
 @media only screen and (min-width: 768px) {
     .link-box {
+        height: 57.5px;
+    }
+
+    .link-box p {
+        font-size: 1.2rem;
+        line-height: 37.5px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .link-box {
         height: 75px;
     }
 
     .link-box p {
         font-size: 1.5rem;
-        line-height: 37.5px;
         padding-top: 10px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-
 }
 
 @media only screen and (min-width: 1200px) {
